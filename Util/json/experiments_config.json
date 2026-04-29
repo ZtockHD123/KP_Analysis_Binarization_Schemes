@@ -1,0 +1,272 @@
+{
+    "_comentarios": {
+        "ben": "Indica si se van a procesar funciones BEN.",
+        "scp": "Indica si se van a procesar instancias SCP.",
+        "uscp": "Indica si se van a procesar instancias USCP.",
+        "kp": "Indica si se van a procesar instancias de KP.",
+        "mhs": "Lista de metaheurísticas que se van a procesar.",
+        "DS_actions": "Lista de acciones de binarización de la población.",
+        "dimensiones": "Mapea cada función BEN a las dimensiones que utiliza.",
+        "experimentos": "Parámetros globales de iteraciones y población para cada problema.",
+        "instancias": "Identificadores de los instancias de los problemas que se van a procesar.",
+        "instancias_permitadas_BEN": "F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,F17,F18,F19,F20,F21,F22,F23",
+        "mapas_caoticos": "LOG,PIECE,SINE,SINGER,SINU,TENT,CIRCLE",
+        "instancias_permitadas_SCP_4": "41,410,42,43,44,45,46,47,48,49",
+        "instancias_permitadas_SCP_5": "51,510,52,53,54,55,56,57,58,59",
+        "instancias_permitadas_SCP_6": "61,62,63,64,65",
+        "instancias_permitadas_SCP_a": "a1,a2,a3,a4,a5",
+        "instancias_permitadas_SCP_b": "b1,b2,b3,b4,b5",
+        "instancias_permitadas_SCP_c": "c1,c2,c3,c4,c5",
+        "instancias_permitadas_SCP_d": "d1,d2,d3,d4,d5",
+        "instancias_permitadas_SCP_nre": "nre1,nre2,nre3,nre4,nre5",
+        "instancias_permitadas_SCP_nrf": "nrf1,nrf2,nrf3,nrf4,nrf5",
+        "instancias_permitadas_SCP_nrg": "nrg1,nrg2,nrg3,nrg4,nrg5",
+        "instancias_permitadas_SCP_nrh": "nrh1,nrh2,nrh3,nrh4,nrh5",
+        "instancias_permitadas_USCP_4": "u41,u410,u42,u43,u44,u45,u46,u47,u48,u49",
+        "instancias_permitadas_USCP_5": "u51,u510,u52,u53,u54,u55,u56,u57,u58,u59",
+        "instancias_permitadas_USCP_6": "u61,u62,u63,u64,u65",
+        "instancias_permitadas_USCP_a": "ua1,ua2,ua3,ua4,ua5",
+        "instancias_permitadas_USCP_b": "ub1,ub2,ub3,ub4,ub5",
+        "instancias_permitadas_USCP_c": "uc1,uc2,uc3,uc4,uc5",
+        "instancias_permitadas_USCP_d": "ud1,ud2,ud3,ud4,ud5",
+        "instancias_permitadas_USCP_nre": "unre1,unre2,unre3,unre4,unre5",
+        "instancias_permitadas_USCP_nrf": "unrf1,unrf2,unrf3,unrf4,unrf5",
+        "instancias_permitadas_USCP_nrg": "unrg1,unrg2,unrg3,unrg4,unrg5",
+        "instancias_permitadas_USCP_nrh": "unrh1,unrh2,unrh3,unrh4,unrh5",
+        "instancias_permitadas_USCP_especiales": "uclr10,uclr11,uclr12,uclr13,ucyc06,ucyc07,ucyc08,ucyc09,ucyc10,ucyc11",
+        "instancias_permitadas_KP_1": "knapPI_1_10000_1000_1,knapPI_1_1000_1000_1,knapPI_1_100_1000_1,knapPI_1_2000_1000_1,knapPI_1_200_1000_1,knapPI_1_5000_1000_1,knapPI_1_500_1000_1",
+        "instancias_permitadas_KP_2": "knapPI_2_10000_1000_1,knapPI_2_1000_1000_1,knapPI_2_100_1000_1,knapPI_2_2000_1000_1,knapPI_2_200_1000_1,knapPI_2_5000_1000_1,knapPI_2_500_1000_1",
+        "instancias_permitadas_KP_3": "knapPI_3_10000_1000_1,knapPI_3_1000_1000_1,knapPI_3_100_1000_1,knapPI_3_2000_1000_1,knapPI_3_200_1000_1,knapPI_3_5000_1000_1,knapPI_3_500_1000_1",
+        "binarizaciones_clasicas_STD": "V1-STD,V2-STD,V3-STD,V4-STD,S1-STD,S2-STD,S3-STD,S4-STD",
+        "binarizaciones_clasicas_COM": "V1-COM,V2-COM,V3-COM,V4-COM,S1-COM,S2-COM,S3-COM,S4-COM",
+        "binarizaciones_clasicas_PS": "V1-PS,V2-PS,V3-PS,V4-PS,S1-PS,S2-PS,S3-PS,S4-PS",
+        "binarizaciones_clasicas_ELIT": "V1-ELIT,V2-ELIT,V3-ELIT,V4-ELIT,S1-ELIT,S2-ELIT,S3-ELIT,S4-ELIT",
+        "binarizaciones_caotica_STD_LOG": "V1-STD_LOG,V2-STD_LOG,V3-STD_LOG,V4-STD_LOG,S1-STD_LOG,S2-STD_LOG,S3-STD_LOG,S4-STD_LOG",
+        "binarizaciones_caotica_COM_LOG": "V1-COM_LOG,V2-COM_LOG,V3-COM_LOG,V4-COM_LOG,S1-COM_LOG,S2-COM_LOG,S3-COM_LOG,S4-COM_LOG",
+        "binarizaciones_caotica_PS_LOG": "V1-PS_LOG,V2-PS_LOG,V3-PS_LOG,V4-PS_LOG,S1-PS_LOG,S2-PS_LOG,S3-PS_LOG,S4-PS_LOG",
+        "binarizaciones_caotica_ELIT_LOG": "V1-ELIT_LOG,V2-ELIT_LOG,V3-ELIT_LOG,V4-ELIT_LOG,S1-ELIT_LOG,S2-ELIT_LOG,S3-ELIT_LOG,S4-ELIT_LOG",
+        "binarizaciones_caotica_STD_PIECE": "V1-STD_PIECE,V2-STD_PIECE,V3-STD_PIECE,V4-STD_PIECE,S1-STD_PIECE,S2-STD_PIECE,S3-STD_PIECE,S4-STD_PIECE",
+        "binarizaciones_caotica_COM_PIECE": "V1-COM_PIECE,V2-COM_PIECE,V3-COM_PIECE,V4-COM_PIECE,S1-COM_PIECE,S2-COM_PIECE,S3-COM_PIECE,S4-COM_PIECE",
+        "binarizaciones_caotica_PS_PIECE": "V1-PS_PIECE,V2-PS_PIECE,V3-PS_PIECE,V4-PS_PIECE,S1-PS_PIECE,S2-PS_PIECE,S3-PS_PIECE,S4-PS_PIECE",
+        "binarizaciones_caotica_ELIT_PIECE": "V1-ELIT_PIECE,V2-ELIT_PIECE,V3-ELIT_PIECE,V4-ELIT_PIECE,S1-ELIT_PIECE,S2-ELIT_PIECE,S3-ELIT_PIECE,S4-ELIT_PIECE",
+        "binarizaciones_caotica_STD_SINE": "V1-STD_SINE,V2-STD_SINE,V3-STD_SINE,V4-STD_SINE,S1-STD_SINE,S2-STD_SINE,S3-STD_SINE,S4-STD_SINE",
+        "binarizaciones_caotica_COM_SINE": "V1-COM_SINE,V2-COM_SINE,V3-COM_SINE,V4-COM_SINE,S1-COM_SINE,S2-COM_SINE,S3-COM_SINE,S4-COM_SINE",
+        "binarizaciones_caotica_PS_SINE": "V1-PS_SINE,V2-PS_SINE,V3-PS_SINE,V4-PS_SINE,S1-PS_SINE,S2-PS_SINE,S3-PS_SINE,S4-PS_SINE",
+        "binarizaciones_caotica_ELIT_SINE": "V1-ELIT_SINE,V2-ELIT_SINE,V3-ELIT_SINE,V4-ELIT_SINE,S1-ELIT_SINE,S2-ELIT_SINE,S3-ELIT_SINE,S4-ELIT_SINE",
+        "binarizaciones_caotica_STD_SINGER": "V1-STD_SINGER,V2-STD_SINGER,V3-STD_SINGER,V4-STD_SINGER,S1-STD_SINGER,S2-STD_SINGER,S3-STD_SINGER,S4-STD_SINGER",
+        "binarizaciones_caotica_COM_SINGER": "V1-COM_SINGER,V2-COM_SINGER,V3-COM_SINGER,V4-COM_SINGER,S1-COM_SINGER,S2-COM_SINGER,S3-COM_SINGER,S4-COM_SINGER",
+        "binarizaciones_caotica_PS_SINGER": "V1-PS_SINGER,V2-PS_SINGER,V3-PS_SINGER,V4-PS_SINGER,S1-PS_SINGER,S2-PS_SINGER,S3-PS_SINGER,S4-PS_SINGER",
+        "binarizaciones_caotica_ELIT_SINGER": "V1-ELIT_SINGER,V2-ELIT_SINGER,V3-ELIT_SINGER,V4-ELIT_SINGER,S1-ELIT_SINGER,S2-ELIT_SINGER,S3-ELIT_SINGER,S4-ELIT_SINGER",
+        "binarizaciones_caotica_STD_SINU": "V1-STD_SINU,V2-STD_SINU,V3-STD_SINU,V4-STD_SINU,S1-STD_SINU,S2-STD_SINU,S3-STD_SINU,S4-STD_SINU",
+        "binarizaciones_caotica_COM_SINU": "V1-COM_SINU,V2-COM_SINU,V3-COM_SINU,V4-COM_SINU,S1-COM_SINU,S2-COM_SINU,S3-COM_SINU,S4-COM_SINU",
+        "binarizaciones_caotica_PS_SINU": "V1-PS_SINU,V2-PS_SINU,V3-PS_SINU,V4-PS_SINU,S1-PS_SINU,S2-PS_SINU,S3-PS_SINU,S4-PS_SINU",
+        "binarizaciones_caotica_ELIT_SINU": "V1-ELIT_SINU,V2-ELIT_SINU,V3-ELIT_SINU,V4-ELIT_SINU,S1-ELIT_SINU,S2-ELIT_SINU,S3-ELIT_SINU,S4-ELIT_SINU",
+        "binarizaciones_caotica_STD_TENT": "V1-STD_TENT,V2-STD_TENT,V3-STD_TENT,V4-STD_TENT,S1-STD_TENT,S2-STD_TENT,S3-STD_TENT,S4-STD_TENT",
+        "binarizaciones_caotica_COM_TENT": "V1-COM_TENT,V2-COM_TENT,V3-COM_TENT,V4-COM_TENT,S1-COM_TENT,S2-COM_TENT,S3-COM_TENT,S4-COM_TENT",
+        "binarizaciones_caotica_PS_TENT": "V1-PS_TENT,V2-PS_TENT,V3-PS_TENT,V4-PS_TENT,S1-PS_TENT,S2-PS_TENT,S3-PS_TENT,S4-PS_TENT",
+        "binarizaciones_caotica_ELIT_TENT": "V1-ELIT_TENT,V2-ELIT_TENT,V3-ELIT_TENT,V4-ELIT_TENT,S1-ELIT_TENT,S2-ELIT_TENT,S3-ELIT_TENT,S4-ELIT_TENT",
+        "binarizaciones_caotica_STD_CIRCLE": "V1-STD_CIRCLE,V2-STD_CIRCLE,V3-STD_CIRCLE,V4-STD_CIRCLE,S1-STD_CIRCLE,S2-STD_CIRCLE,S3-STD_CIRCLE,S4-STD_CIRCLE",
+        "binarizaciones_caotica_COM_CIRCLE": "V1-COM_CIRCLE,V2-COM_CIRCLE,V3-COM_CIRCLE,V4-COM_CIRCLE,S1-COM_CIRCLE,S2-COM_CIRCLE,S3-COM_CIRCLE,S4-COM_CIRCLE",
+        "binarizaciones_caotica_PS_CIRCLE": "V1-PS_CIRCLE,V2-PS_CIRCLE,V3-PS_CIRCLE,V4-PS_CIRCLE,S1-PS_CIRCLE,S2-PS_CIRCLE,S3-PS_CIRCLE,S4-PS_CIRCLE",
+        "binarizaciones_caotica_ELIT_CIRCLE": "V1-ELIT_CIRCLE,V2-ELIT_CIRCLE,V3-ELIT_CIRCLE,V4-ELIT_CIRCLE,S1-ELIT_CIRCLE,S2-ELIT_CIRCLE,S3-ELIT_CIRCLE,S4-ELIT_CIRCLE"
+    },
+    "ben": false,
+    "scp": true,
+    "uscp": true,
+    "kp": false,
+    "mhs": [
+        "SCA",
+        "GWO",
+        "WOA"
+    ],
+    "DS_actions": [
+        "V3-STD",
+        "V3-COM",
+        "V3-ELIT",
+        "V3-STD_LOG",
+        "V3-STD_PIECE",
+        "V3-STD_SINE",
+        "V3-STD_SINGER",
+        "V3-STD_SINU",
+        "V3-STD_TENT",
+        "V3-STD_CIRCLE",
+        "V3-COM_LOG",
+        "V3-COM_PIECE",
+        "V3-COM_SINE",
+        "V3-COM_SINGER",
+        "V3-COM_SINU",
+        "V3-COM_TENT",
+        "V3-COM_CIRCLE",
+        "V3-ELIT_LOG",
+        "V3-ELIT_PIECE",
+        "V3-ELIT_SINE",
+        "V3-ELIT_SINGER",
+        "V3-ELIT_SINU",
+        "V3-ELIT_TENT",
+        "V3-ELIT_CIRCLE"
+    ],
+    "dimensiones": {
+        "BEN": {
+            "F1": [
+                30
+            ],
+            "F2": [
+                30
+            ],
+            "F3": [
+                30
+            ],
+            "F4": [
+                30
+            ],
+            "F5": [
+                30
+            ],
+            "F6": [
+                30
+            ],
+            "F7": [
+                30
+            ],
+            "F8": [
+                30
+            ],
+            "F9": [
+                30
+            ],
+            "F10": [
+                30
+            ],
+            "F11": [
+                30
+            ],
+            "F12": [
+                30
+            ],
+            "F13": [
+                30
+            ],
+            "F14": [
+                2
+            ],
+            "F15": [
+                4
+            ],
+            "F16": [
+                2
+            ],
+            "F17": [
+                2
+            ],
+            "F18": [
+                2
+            ],
+            "F19": [
+                3
+            ],
+            "F20": [
+                6
+            ],
+            "F21": [
+                4
+            ],
+            "F22": [
+                4
+            ],
+            "F23": [
+                4
+            ]
+        }
+    },
+    "experimentos": {
+        "BEN": {
+            "iteraciones": 1000,
+            "poblacion": 50,
+            "num_experimentos": 31,
+            "cross": 0.8,
+            "muta": 0.5,
+            "chaotic_map": "CIRCLE"
+        },
+        "SCP": {
+            "iteraciones": 100,
+            "poblacion": 10,
+            "num_experimentos": 31,
+            "repair": "complex",
+            "cross": 0.7,
+            "muta": 0.2
+        },
+        "USCP": {
+            "iteraciones": 100,
+            "poblacion": 10,
+            "num_experimentos": 31,
+            "repair": "complex",
+            "cross": 0.7,
+            "muta": 0.2
+        },
+        "KP": {
+            "iteraciones": 100,
+            "poblacion": 10,
+            "num_experimentos": 11,
+            "cross": 0.7,
+            "muta": 0.2
+        }
+    },
+    "instancias": {
+        "BEN": [
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5",
+            "F6",
+            "F7",
+            "F8",
+            "F9",
+            "F10",
+            "F11",
+            "F12",
+            "F13",
+            "F14",
+            "F15",
+            "F16",
+            "F17",
+            "F18",
+            "F19",
+            "F20",
+            "F21",
+            "F22",
+            "F23"
+        ],
+        "SCP": [
+            "41",
+            "51",
+            "61",
+            "a1",
+            "b1",
+            "c1",
+            "d1",
+            "nre1",
+            "nrf1",
+            "nrh1",
+            "nrg1"
+        ],
+        "USCP": [
+            "u41",
+            "u51",
+            "u61",
+            "ud1",
+            "unrf1",
+            "uclr10",
+            "uclr11",
+            "uclr12",
+            "uclr13",
+            "ucyc06",
+            "ucyc07"
+        ],
+        "KP": [
+            "knapPI_1_100_1000_1",
+            "knapPI_1_200_1000_1",
+            "knapPI_1_1000_1000_1"
+        ]
+    }
+}
