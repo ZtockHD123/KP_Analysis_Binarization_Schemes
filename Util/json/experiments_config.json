@@ -71,39 +71,14 @@
         "binarizaciones_caotica_ELIT_CIRCLE": "V1-ELIT_CIRCLE,V2-ELIT_CIRCLE,V3-ELIT_CIRCLE,V4-ELIT_CIRCLE,S1-ELIT_CIRCLE,S2-ELIT_CIRCLE,S3-ELIT_CIRCLE,S4-ELIT_CIRCLE"
     },
     "ben": false,
-    "scp": true,
-    "uscp": true,
-    "kp": false,
+    "scp": false,
+    "uscp": false,
+    "kp": true,
     "mhs": [
-        "SCA",
-        "GWO",
-        "WOA"
+        "PSO","GWO"
     ],
     "DS_actions": [
-        "V3-STD",
-        "V3-COM",
-        "V3-ELIT",
-        "V3-STD_LOG",
-        "V3-STD_PIECE",
-        "V3-STD_SINE",
-        "V3-STD_SINGER",
-        "V3-STD_SINU",
-        "V3-STD_TENT",
-        "V3-STD_CIRCLE",
-        "V3-COM_LOG",
-        "V3-COM_PIECE",
-        "V3-COM_SINE",
-        "V3-COM_SINGER",
-        "V3-COM_SINU",
-        "V3-COM_TENT",
-        "V3-COM_CIRCLE",
-        "V3-ELIT_LOG",
-        "V3-ELIT_PIECE",
-        "V3-ELIT_SINE",
-        "V3-ELIT_SINGER",
-        "V3-ELIT_SINU",
-        "V3-ELIT_TENT",
-        "V3-ELIT_CIRCLE"
+        "S1-STD"
     ],
     "dimensiones": {
         "BEN": {
@@ -204,8 +179,8 @@
             "muta": 0.2
         },
         "KP": {
-            "iteraciones": 100,
-            "poblacion": 10,
+            "iteraciones": 500,
+            "poblacion": 50,
             "num_experimentos": 11,
             "cross": 0.7,
             "muta": 0.2
@@ -264,9 +239,12 @@
             "ucyc07"
         ],
         "KP": [
-            "knapPI_1_100_1000_1",
             "knapPI_1_200_1000_1",
-            "knapPI_1_1000_1000_1"
+            "knapPI_1_500_1000_1",
+            "knapPI_2_200_1000_1",
+            "knapPI_2_500_1000_1",
+            "knapPI_3_200_1000_1",
+            "knapPI_3_500_1000_1"
         ]
     }
 }
