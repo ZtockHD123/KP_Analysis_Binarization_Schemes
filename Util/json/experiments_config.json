@@ -78,7 +78,18 @@
         "PSO","GWO"
     ],
     "DS_actions": [
-        "S1-STD"
+        "S1-STD","S2-STD","S3-STD","S4-STD",
+        "S1-COM","S2-COM","S3-COM","S4-COM",
+        "S1-ELIT","S2-ELIT","S3-ELIT","S4-ELIT",
+        "V1-STD","V2-STD","V3-STD","V4-STD",
+        "V1-COM","V2-COM","V3-COM","V4-COM",
+        "V1-ELIT","V2-ELIT","V3-ELIT","V4-ELIT",
+        "X1-STD","X2-STD","X3-STD","X4-STD",
+        "X1-COM","X2-COM","X3-COM","X4-COM",
+        "X1-ELIT","X2-ELIT","X3-ELIT","X4-ELIT",
+        "Z1-STD","Z2-STD","Z3-STD","Z4-STD",
+        "Z1-COM","Z2-COM","Z3-COM","Z4-COM",
+        "Z1-ELIT","Z2-ELIT","Z3-ELIT","Z4-ELIT"
     ],
     "dimensiones": {
         "BEN": {
@@ -179,9 +190,9 @@
             "muta": 0.2
         },
         "KP": {
-            "iteraciones": 500,
-            "poblacion": 50,
-            "num_experimentos": 11,
+            "iteraciones": 100,
+            "poblacion": 10,
+            "num_experimentos": 31,
             "cross": 0.7,
             "muta": 0.2
         }
@@ -239,11 +250,26 @@
             "ucyc07"
         ],
         "KP": [
+            "knapPI_1_10000_1000_1",
+            "knapPI_1_1000_1000_1",
+            "knapPI_1_100_1000_1",
+            "knapPI_1_2000_1000_1",
             "knapPI_1_200_1000_1",
+            "knapPI_1_5000_1000_1",
             "knapPI_1_500_1000_1",
+            "knapPI_2_10000_1000_1",
+            "knapPI_2_1000_1000_1",
+            "knapPI_2_100_1000_1",
+            "knapPI_2_2000_1000_1",
             "knapPI_2_200_1000_1",
+            "knapPI_2_5000_1000_1",
             "knapPI_2_500_1000_1",
+            "knapPI_3_10000_1000_1",
+            "knapPI_3_1000_1000_1",
+            "knapPI_3_100_1000_1",
+            "knapPI_3_2000_1000_1",
             "knapPI_3_200_1000_1",
+            "knapPI_3_5000_1000_1",
             "knapPI_3_500_1000_1"
         ]
     }
